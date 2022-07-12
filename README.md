@@ -1,4 +1,4 @@
-# Machine_learning_projects
+# Deep learning projects:
 Repo containing some computer vision and NLP projects I have completed.
 
 In the **computer vision** folder, we have the following projects:
