@@ -1,6 +1,9 @@
 ### Generating road masks from satellite images using GAN model
  
- The notebook in this folder was an attempt to implement a GAN model to generate a road mask from an input image. The first part deals with transforming tiff images into jpg so they can be fed into the model. 
+ 
+The notebook in this folder was an attempt to implement a GAN model to generate a road mask from an input image. The first part deals with transforming tiff images into jpg so they can be fed into the model. 
+ 
+ 
  ----
  Contents: 
  Jupyter Notebook 
