@@ -1,23 +1,61 @@
-# Deep learning projects:
-Repo containing some code and model examples from computer vision and NLP projects I have completed.
+# Deep learning and Neural Network projects:
 
-In the **computer vision** folder, we have the following projects:
+A curated collection of **machine learning and data science projects** with a focus on Deep Learning and Neural Networks. 
+Covering various areas including **time series forecasting, computer vision, NLP, and predictive analytics**, with a focus on **robust modelling, validation, and real-world applicability**.
 
-1.  Microscope_slide_cancer_cell_classification - **image classifer** using **edge detection** to predict the type of cancer cell in a microscope slide   
-2.  Microscope_slide_cell_segmentation_tensorflow - **image segmentation model** to identify the location of cell nuclei within a microscope slide to aid in the prediction of cancer type          
-3.  Pipeline_optimisation_for_image_augmentation_tensorflow - **optimising a tensorflow image pipeline** to efficiently apply image transformations and augmentations to image datasets. Reduced time taken to process 100,000 images from 34 minutes down to 2 minutes.
-4.  Road_location_satellite_GAN_tensorflow - Using a **GAN** to look at satellite images of a road and then create an image mask highlighting the pixel location of the road passing through the image. Used to identify road features and predict a road safety score. 
-5.  Land_use_satellite_classifier_tensorflow - **image classifer** to determine from satellite images if the area next to a road is in an urban or rural area. This was used to generate a safety score for a particular stretch of road.  
-6.  Roman_numeral_classification_tensorflow - **image classifier** to identify handwritten roman numerals
-Scenery_classifier_tensorflow - **image classifier** using transfer learning to determine which of 6 classes is being shown in a photograph of a natural or urban area. 
-7. Synthetic_image_generation - using command line tools to **generate synthetic images** for a data driven machine learning competition
+---
 
-In the **NLP (Natural Language Processing)** folder, we have the following projects:
+## Time Series Forecasting
 
-1.  Essay_grader_tensorflow - Building a **tensorflow NLP model** to parse an essay written by a student and **predict the grade** which the teacher would award for a certain essay.
-2.  Movie_review_sentiment_classification_tensorflow - building a tensorflow model to perform **sentiment analaysis** on movie reviews and determine if the review is positive or neagtive in nature. 
+### Electricity Demand Forecasting – Peak Hour Prediction
+Predicting whether a given hour will be the **peak electricity demand hour**, framed as a classification / ranking problem rather than raw demand regression.
 
-In the other section:
+**Highlights:** temporal feature engineering, seasonality handling, decision-oriented forecasting for energy operations.
 
-1. Audiobook_marketing_prediction_tensorflow - **predicting** if a company customer is likely **to be a return customer** based on website usage patterns
+---
 
+### Non-Continuous Time Series Inventory Forecasting
+Forecasting inventory levels from **irregular and incomplete time series data**, reflecting real-world logging gaps and missing observations.
+
+**Highlights:** sparse temporal data handling, robust feature construction, stability-focused evaluation.
+
+---
+
+## Computer Vision
+
+- Cancer cell classification and nuclei segmentation from microscope imagery  
+- Satellite image analysis for road detection, land-use classification, and safety scoring  
+- GAN-based image-to-mask generation  
+- Transfer learning and synthetic data generation  
+- Large-scale TensorFlow image pipeline optimisation (34 → 2 minutes for 100k images)
+
+---
+
+## Natural Language Processing (NLP)
+
+- Essay grading via semantic text modelling  
+- Movie review sentiment classification  
+- Working with **high-dimensional embedding spaces** for text representation
+
+---
+
+## Other Projects
+- Predicting protein section closeness in a 3D folded protein
+- Customer return-likelihood prediction from behavioural and event data
+
+---
+
+## Technologies & Skills Demonstrated
+
+- **Programming:** Python, SQL  
+- **Time Series:** forecasting, temporal feature engineering, irregular data, leakage-aware validation  
+- **Machine Learning:** gradient boosting, deep learning, classification, segmentation  
+- **Computer Vision:** CNNs, vision transformers, GANs, satellite & medical imaging  
+- **NLP:** text classification, embeddings, semantic evaluation  
+- **ML Engineering:** reproducible pipelines, performance optimisation, production-oriented modelling  
+
+---
+
+## Focus
+
+Emphasis on **decision-driven forecasting**, **robust validation**, and **models that generalise under real-world constraints**, rather than optimising for offline metrics alone.
