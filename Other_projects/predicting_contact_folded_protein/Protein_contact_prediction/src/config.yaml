@@ -1,0 +1,9 @@
+merged_cleaned_df_path: /home/leon/Documents/github_repos/deep_origin_take_home_assignment/deep_origin/data/ready_for_training/train_gt_embed_preds.pkl
+processed_data_folder: /home/leon/Documents/github_repos/deep_origin_take_home_assignment/deep_origin/data/processed
+raw_data_folder: /home/leon/Documents/github_repos/deep_origin_take_home_assignment/deep_origin/data/raw
+raw_train_data_folder: /home/leon/Documents/github_repos/deep_origin_take_home_assignment/deep_origin/data/raw/train
+root_dir: /home/leon/Documents/github_repos/deep_origin_take_home_assignment
+top_level_folder: /home/leon/Documents/github_repos/deep_origin_take_home_assignment/deep_origin
+train_data_combined_filepath: /home/leon/Documents/github_repos/deep_origin_take_home_assignment/deep_origin/data/processed/train_data_combined/training_data_df.pkl
+train_data_combined_folder: /home/leon/Documents/github_repos/deep_origin_take_home_assignment/deep_origin/data/processed/train_data_combined
+train_data_processed_folder: /home/leon/Documents/github_repos/deep_origin_take_home_assignment/deep_origin/data/processed/train_data_processed
