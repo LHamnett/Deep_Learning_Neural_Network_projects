@@ -15,7 +15,7 @@ Predicting whether a given hour will be the **peak electricity demand hour**, fr
 ---
 
 ### Non-Continuous Time Series Inventory Forecasting
-Forecasting inventory levels from **irregular and incomplete time series data**, reflecting real-world logging gaps and missing observations.
+Forecasting inventory levels from **irregular and incomplete time series data**, reflecting real-world logging gaps.
 
 **Highlights:** sparse temporal data handling, robust feature construction, stability-focused evaluation.
 
@@ -23,24 +23,72 @@ Forecasting inventory levels from **irregular and incomplete time series data**,
 
 ## Computer Vision
 
-- Cancer cell classification and nuclei segmentation from microscope imagery  
-- Satellite image analysis for road detection, land-use classification, and safety scoring  
-- GAN-based image-to-mask generation  
-- Transfer learning and synthetic data generation  
-- Large-scale TensorFlow image pipeline optimisation (34 → 2 minutes for 100k images)
+### Semi-Supervised Building Segmentation
+Segmenting buildings from satellite imagery using **semi-supervised learning**, achieving near-supervised performance with dramatically reduced labelled data.
+
+**Highlights:** data-efficient learning, large-scale geospatial imagery, robustness under limited labels.
+
+---
+
+### Image Pipeline Optimisation for Large-Scale Augmentation
+Optimised a TensorFlow image augmentation pipeline, reducing processing time for **100,000 images from 34 minutes to 2 minutes**.
+
+**Highlights:** performance engineering, scalable data pipelines, production-oriented optimisation.
+
+---
+
+### Road Location Detection with GANs
+GAN-based model generating road masks from satellite imagery to support infrastructure analysis and road safety scoring.
+
+**Highlights:** generative modelling, image-to-mask tasks, satellite imagery.
+
+---
+
+### Medical Imaging – Cancer Cell Classification & Segmentation
+Classification and nuclei segmentation of cancer cells from microscope slides to support downstream diagnostic tasks.
+
+**Highlights:** medical imaging, CNNs, segmentation, data quality and robustness.
+
+---
+
+### Land Use Classification from Satellite Imagery
+Classifying **urban vs rural** land use near roads from satellite images to inform infrastructure safety analysis.
+
+**Highlights:** remote sensing, transfer learning, applied classification.
+
+---
+
+### Additional Vision Projects
+- Roman numeral classification from handwritten images 
+- Scenery classification using transfer learning 
+- Synthetic image generation for data-limited ML tasks
 
 ---
 
 ## Natural Language Processing (NLP)
 
-- Essay grading via semantic text modelling  
-- Movie review sentiment classification  
+- Essay grading via semantic text modelling 
+- Movie review sentiment classification 
 - Working with **high-dimensional embedding spaces** for text representation
 
 ---
 
-## Other Projects
-- Predicting protein section closeness in a 3D folded protein
+## Other projects
+
+### Protein Residue–Residue Contact Prediction
+Developed a machine learning model to predict **residue–residue contact maps** directly from protein sequences, without explicitly reconstructing 3D structures.
+
+**Highlights:**  
+- Built on **ESM2 protein language model embeddings**, extending the contact prediction head  
+- Incorporated **structural information from homologous protein sequences** to improve contact prediction accuracy  
+- Worked with **high-dimensional embedding representations** and pairwise residue interactions  
+- Trained and evaluated using protein structures from PDB, defining contacts via Cα distance thresholds  
+- Focused on model interpretability, data preprocessing, and rigorous evaluation rather than end-to-end black-box prediction
+
+**Skills demonstrated:**  
+Representation learning, scientific machine learning, embedding-based modelling, pairwise prediction tasks, and integrating domain knowledge into neural architectures.
+
+### Customer Churn Prediction
 - Customer return-likelihood prediction from behavioural and event data
 
 ---
@@ -58,4 +106,4 @@ Forecasting inventory levels from **irregular and incomplete time series data**,
 
 ## Focus
 
-Emphasis on **decision-driven forecasting**, **robust validation**, and **models that generalise under real-world constraints**, rather than optimising for offline metrics alone.
+Emphasis on **decision-driven forecasting**, **robust validation**, and **models that generalise under real-world conditions**, rather than optimising for offline metrics alone.
