@@ -1,0 +1,78 @@
+data:
+  test_years:
+  - 2008
+  train_years:
+  - 2005
+  - 2006
+  val_years:
+  - 2007
+paths:
+  features_data_folder_path: /home/leon/Documents/github_repos/amperon_take_home_test/Leon_Hamnett_Amperon_take_home/data/features_added
+  merged_data_folder_path: /home/leon/Documents/github_repos/amperon_take_home_test/Leon_Hamnett_Amperon_take_home/data/merged
+  processed_data_folder_path: /home/leon/Documents/github_repos/amperon_take_home_test/Leon_Hamnett_Amperon_take_home/data/processed
+  raw_data_folder_path: /home/leon/Documents/github_repos/amperon_take_home_test/Leon_Hamnett_Amperon_take_home/data/raw
+  top_level_folder_path: /home/leon/Documents/github_repos/amperon_take_home_test/Amperon_take_home
+train_set_calculated_features:
+- prior_probs
+train_set_prior_granularity: hour
+x_features_to_not_scale:
+- is_weekend
+- day_of_week_sin
+- day_of_week_cos
+- month_sin
+- month_cos
+- hour_sin
+- hour_cos
+- season_1
+- season_2
+- season_3
+- season_4
+- is_holiday
+- holiday_name_Christmas Day
+- holiday_name_Columbus Day
+- holiday_name_Independence Day
+- holiday_name_Labor Day
+- holiday_name_Martin Luther King Jr. Day
+- holiday_name_Memorial Day
+- holiday_name_New Year's Day
+- holiday_name_Thanksgiving Day
+- holiday_name_Veterans Day
+- holiday_name_Washington's Birthday
+- holiday_type_government
+- holiday_type_summer
+- holiday_type_thanksgiving
+- holiday_type_winter_family
+x_features_to_scale:
+- temp_station_1
+- temp_station_2
+- temp_station_3
+- temp_station_4
+- temp_station_5
+- temp_station_6
+- temp_station_7
+- temp_station_8
+- temp_station_9
+- temp_station_10
+- temp_station_11
+- temp_station_12
+- temp_station_13
+- temp_station_14
+- temp_station_15
+- temp_station_16
+- temp_station_17
+- temp_station_18
+- temp_station_19
+- temp_station_20
+- temp_station_21
+- temp_station_22
+- temp_station_23
+- temp_station_24
+- temp_station_25
+- temp_station_26
+- temp_station_27
+- temp_station_28
+- max_station_temp
+- min_station_temp
+- mean_station_temp
+- std_station_temp
+- temp_diff_stations

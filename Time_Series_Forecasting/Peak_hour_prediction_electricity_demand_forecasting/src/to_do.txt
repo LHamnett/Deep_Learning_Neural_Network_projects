@@ -1,0 +1,3 @@
+add time to/from next holiday
+
+try converting daily data to block, flatten, output 1x24 probs
